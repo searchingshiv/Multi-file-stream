@@ -8,7 +8,7 @@ Here is our Demo bot -
 
 If you encounter any issues deploying the bot, feel free to seek assistance in our support group:
 
-[![Join Support Group](https://img.shields.io/badge/Join%20Support%20Group-Click%20Here-blue?style=flat&logo=telegram&labelColor=white&link=https://t.me/Bisal_Files_Talk)](https://t.me/Bisal_Files_Talk)
+[![Join Support Group](https://img.shields.io/badge/Contact%20Developer-Click%20Here-blue?style=flat&logo=telegram&labelColor=white&link=https://t.me/Bisal_Files_Talk)](https://t.me/THE_DS_OFFICIAL)
 
 
 
