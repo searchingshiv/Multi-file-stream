@@ -22,9 +22,9 @@ If you encounter any issues deploying the bot, feel free to seek assistance in o
     <br />
    </strong></a>
     <br />
-    <a href="https://github.com/biisal/biisal-file-stream-pro/issues">Report a Bug</a>
+    <a href="https://t.me/THE_DS_OFFICIAL">Report a Bug</a>
     |
-    <a href="https://github.com/biisal/biisal-file-stream-pro/issues">Request Feature</a>
+    <a href="https://t.me/THE_DS_OFFICIAL">Request Feature</a>
   </p>
 
 
@@ -81,7 +81,7 @@ Thank you for your interest in this project, and we appreciate your understandin
       <summary><b>Deploy to Heroku<b></summary>
       Click the button below to deploy the bot on Heroku:
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/biisal/biisal-file-stream-pro)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
   </details>
   <details>
@@ -172,6 +172,6 @@ Bot also Supported with Channels. Just add bot Channel as Admin. If any new file
 
 ### Credits : 
 
-- [Me](https://github.com/biisal)
+- [Me](https://github.com/Sanchit0102)
 - [Adarsh](https://github.com/adarsh-goel)
 - Everyone In This Journey !
