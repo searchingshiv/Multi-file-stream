@@ -81,7 +81,7 @@ Thank you for your interest in this project, and we appreciate your understandin
       <summary><b>Deploy to Heroku<b></summary>
       Click the button below to deploy the bot on Heroku:
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?=https://github.com/Sanchit0102/Multi-file-stream)
 
   </details>
   <details>
