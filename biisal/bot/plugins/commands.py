@@ -20,7 +20,7 @@ SRT_TXT = """<b>ᴊᴀɪ sʜʀᴇᴇ Rᴀᴍ {}!,
 I ᴀᴍ Fɪʟᴇ ᴛᴏ Lɪɴᴋ Gᴇɴᴇʀᴀᴛᴏʀ Bᴏᴛ ᴡɪᴛʜ Cʜᴀɴɴᴇʟ sᴜᴘᴘᴏʀᴛ.
 
 Sᴇɴᴅ ᴍᴇ ᴀɴʏ ғɪʟᴇ ᴀɴᴅ ɢᴇᴛ ᴀ ᴅɪʀᴇᴄᴛ ᴅᴏᴡɴʟᴏᴀᴅ ʟɪɴᴋ ᴀɴᴅ sᴛʀᴇᴀᴍᴀʙʟᴇ ʟɪɴᴋ.!
-ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : <a href='https://t.me/THE_SILENT_TEAM'>THE SILENT TEAM</a></b>"""
+ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : [THE SILENT TEAM](https://t.me/THE_SILENT_TEAM).</b>"""
 
 @StreamBot.on_message(filters.command("start") & filters.private )
 async def start(b, m):
