@@ -68,16 +68,18 @@ async def start(b, m):
     caption= SRT_TXT.format(m.from_user.mention(style="md")),
     reply_markup=InlineKeyboardMarkup(
         [
-            [InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ 🤡", url=silent_channel)],
             [
-                 InlineKeyboardButton("ᴀʙᴏᴜᴛ 😎", callback_data="about"),
-                 InlineKeyboardButton("ʜᴇʟᴘ 😅", callback_data="help")
+                 InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ 🤡", url=silent_channel)],
             ],
-            [InlineKeyboardButton("ᴏᴜʀ ɢʀᴏᴜᴘ 🚩", url=silent_auto_grp)],
-
             [
-                 InlineKeyboardButton("ᴅɪsᴄʟᴀɪᴍᴇʀ 🔻", url=f"https://www.google.com"),
-                 InlineKeyboardButton("ᴅᴇᴠ 😊", callback_data="aboutDev")
+                 InlineKeyboardButton("Support Group", url="https://t.me/+ZSUTmOXuwqxlODk1"),
+                 InlineKeyboardButton("Auto Group", url="silent_auto_grp"")
+            ],
+            [   
+                 InlineKeyboardButton("ᴀʙᴏᴜᴛ 😎", callback_data="about"),
+                 InlineKeyboardButton("ʜᴇʟᴘ 😅", callback_data="help") 
+            ],
+                 InlineKeyboardButton("Lᴀᴛᴇꜱᴛ Mᴏᴠɪᴇꜱ 😆", url="https://t.me/+9bpv69G2aPMyNjFl")
             ]
         ]
     )
@@ -132,8 +134,8 @@ async def help_cd(b, m):
                 InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ 🤡", url=silent_channel)
             ],
             [
-                InlineKeyboardButton("ᴅɪsᴄʟᴀɪᴍᴇʀ 🔻", url=f"https://www.google.com"),
-                InlineKeyboardButton("ᴏᴜʀ ɢʀᴏᴜᴘ 🚩", url=silent_auto_grp),
+                InlineKeyboardButton("Support Group", url="https://t.me/+ZSUTmOXuwqxlODk1"),
+                InlineKeyboardButton("Auto Group", url=silent_auto_grp),
 
             ],
             [
@@ -158,22 +160,23 @@ async def cb_handler(client, query):
         await query.message.edit_caption(
         caption= SRT_TXT.format(query.from_user.mention(style="md")),
         reply_markup=InlineKeyboardMarkup(
-                [
-            [InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ 🤡", url=silent_channel)],
+        [
             [
-                 InlineKeyboardButton("ᴀʙᴏᴜᴛ 😎", callback_data="about"),
-                 InlineKeyboardButton("ʜᴇʟᴘ 😅", callback_data="help")
+                 InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ 🤡", url=silent_channel)],
             ],
-            [InlineKeyboardButton("ᴏᴜʀ ɢʀᴏᴜᴘ 🚩", url=silent_auto_grp)],
-
             [
-                 InlineKeyboardButton("ᴅɪsᴄʟᴀɪᴍᴇʀ 🔻", url=f"https://telegra.ph/Disclaimer-11-07-37"),
-                 InlineKeyboardButton("ᴅᴇᴠ 😊", callback_data="aboutDev")
+                 InlineKeyboardButton("Support Group", url="https://t.me/+ZSUTmOXuwqxlODk1"),
+                 InlineKeyboardButton("Auto Group", url="silent_auto_grp"")
+            ],
+            [   
+                 InlineKeyboardButton("ᴀʙᴏᴜᴛ 😎", callback_data="about"),
+                 InlineKeyboardButton("ʜᴇʟᴘ 😅", callback_data="help") 
+            ],
+                 InlineKeyboardButton("Lᴀᴛᴇꜱᴛ Mᴏᴠɪᴇꜱ 😆", url="https://t.me/+9bpv69G2aPMyNjFl")
             ]
         ]
-            )
-        )
-
+    )
+ )
     
     elif data == "about":
         await query.message.edit_caption(
