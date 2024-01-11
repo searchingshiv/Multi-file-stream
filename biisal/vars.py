@@ -7,7 +7,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 DS_bot_name = "Silent Streamer" #This Extra Function Added By 𝚂𝙰𝙽𝙲𝙷𝙸𝚃 ♛⛧
-DS_bot_username = "SilentHelper_bot" #Add Bot Username Without '@'
+DS_bot_username = "DS_FILE_2_LINK_BOT" #Add Bot Username Without '@'
 silent_channel = "https://telegram.me/THE_SILENT_TEAMS" #Update Channel Link
 silent_auto_grp = "https://t.me/+CZH0JaSwih44ZTM1" #Auto Filter Group Link
 
