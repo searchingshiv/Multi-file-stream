@@ -20,7 +20,7 @@ class Var(object):
     SLEEP_THRESHOLD = int(getenv('SLEEP_THRESHOLD', '60'))
     WORKERS = int(getenv('WORKERS', '10000'))
     BIN_CHANNEL = int(getenv('BIN_CHANNEL', '-1001925180658'))
-    NEW_USER_LOG = int(getenv('NEW_USER_LOG', '-1001925180658'))
+    NEW_USER_LOG = int(getenv('NEW_USER_LOG', '-1002016803498'))
     PORT = int(getenv('PORT', '8080'))
     BIND_ADRESS = str(getenv('WEB_SERVER_BIND_ADDRESS', '0.0.0.0'))
     PING_INTERVAL = int(environ.get("PING_INTERVAL", "1200"))  # 20 minutes
