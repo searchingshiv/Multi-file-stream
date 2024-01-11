@@ -16,7 +16,7 @@ class Var(object):
     API_ID = int(getenv('API_ID', ''))
     API_HASH = str(getenv('API_HASH', ''))
     BOT_TOKEN = str(getenv('BOT_TOKEN' , ''))
-    name = str(getenv('name', 'silent_F2L_bot'))
+    name = str(getenv('name', ''))
     SLEEP_THRESHOLD = int(getenv('SLEEP_THRESHOLD', '60'))
     WORKERS = int(getenv('WORKERS', '10000'))
     BIN_CHANNEL = int(getenv('BIN_CHANNEL', ''))
