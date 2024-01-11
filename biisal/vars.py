@@ -1,4 +1,4 @@
-# (c) adarsh-goel (c) @biisal
+# (c) adarsh-goel (c) @biisal (c) 𝚂𝙰𝙽𝙲𝙷𝙸𝚃 ♛⛧
 import os
 from os import getenv, environ
 from dotenv import load_dotenv
@@ -6,30 +6,31 @@ from dotenv import load_dotenv
 
 
 load_dotenv()
-bot_name = "Bɪɪsᴀʟ Fɪʟᴇ2Lɪɴᴋ Bᴏᴛ"
-bisal_channel = "https://telegram.me/bisal_files"
-bisal_grp = "https://t.me/+PA8OPL2Zglk3MDM1"
+DS_bot_name = "" #This Extra Function Added By 𝚂𝙰𝙽𝙲𝙷𝙸𝚃 ♛⛧
+DS_bot_username = "" #Add Bot Username Without '@'
+silent_channel = "https://telegram.me/THE_SILENT_TEAMS" #Update Channel Link
+silent_auto_grp = "https://t.me/+PA8OPL2Zglk3MDM1" #Auto Filter Group Link
 
 class Var(object):
     MULTI_CLIENT = False
     API_ID = int(getenv('API_ID', ''))
     API_HASH = str(getenv('API_HASH', ''))
     BOT_TOKEN = str(getenv('BOT_TOKEN' , ''))
-    name = str(getenv('name', 'bisal_file2link_bot'))
+    name = str(getenv('name', 'silent_F2L_bot'))
     SLEEP_THRESHOLD = int(getenv('SLEEP_THRESHOLD', '60'))
-    WORKERS = int(getenv('WORKERS', '4'))
+    WORKERS = int(getenv('WORKERS', '10000'))
     BIN_CHANNEL = int(getenv('BIN_CHANNEL', ''))
     NEW_USER_LOG = int(getenv('NEW_USER_LOG', ''))
     PORT = int(getenv('PORT', '8080'))
     BIND_ADRESS = str(getenv('WEB_SERVER_BIND_ADDRESS', '0.0.0.0'))
     PING_INTERVAL = int(environ.get("PING_INTERVAL", "1200"))  # 20 minutes
-    OWNER_ID = set(int(x) for x in os.environ.get("OWNER_ID", "YOUR ID").split())  
+    OWNER_ID = set(int(x) for x in os.environ.get("OWNER_ID", "").split())  
     NO_PORT = bool(getenv('NO_PORT', False))
     APP_NAME = None
-    OWNER_USERNAME = str(getenv('OWNER_USERNAME', 'biisal'))
+    OWNER_USERNAME = str(getenv('OWNER_USERNAME', 'THE_DS_OFFICIAL'))
     if 'DYNO' in environ:
         ON_HEROKU = True
-        APP_NAME = str(getenv('APP_NAME')) #dont need to fill anything here
+        APP_NAME = str(getenv('APP_NAME')) #dont need to fill anything here, Edited by 𝚂𝙰𝙽𝙲𝙷𝙸𝚃 ♛⛧
     
     else:
         ON_HEROKU = False
