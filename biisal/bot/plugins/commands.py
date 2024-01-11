@@ -79,6 +79,7 @@ async def start(b, m):
                  InlineKeyboardButton("ᴀʙᴏᴜᴛ 😎", callback_data="about"),
                  InlineKeyboardButton("ʜᴇʟᴘ 😅", callback_data="help") 
             ],
+            [
                  InlineKeyboardButton("Lᴀᴛᴇꜱᴛ Mᴏᴠɪᴇꜱ 😆", url="https://t.me/+9bpv69G2aPMyNjFl")
             ]
         ]
