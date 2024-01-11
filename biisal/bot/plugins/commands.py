@@ -69,7 +69,7 @@ async def start(b, m):
     reply_markup=InlineKeyboardMarkup(
         [
             [
-                 InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ 🤡", url=silent_channel)],
+                 InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ 🤡", url=silent_channel),
             ],
             [
                  InlineKeyboardButton("Support Group", url="https://t.me/+ZSUTmOXuwqxlODk1"),
@@ -85,7 +85,6 @@ async def start(b, m):
         ]
     )
 )
-
 @StreamBot.on_message(filters.command("help") & filters.private )
 async def help_cd(b, m):
     if not await db.is_user_exist(m.from_user.id):
