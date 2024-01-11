@@ -163,11 +163,11 @@ async def cb_handler(client, query):
         reply_markup=InlineKeyboardMarkup(
         [
             [
-                 InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ 🤡", url=silent_channel)],
+                 InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ 🤡", url=silent_channel),
             ],
             [
                  InlineKeyboardButton("Support Group", url="https://t.me/+ZSUTmOXuwqxlODk1"),
-                 InlineKeyboardButton("Auto Group", url="silent_auto_grp"")
+                 InlineKeyboardButton("Auto Group", url="silent_auto_grp")
             ],
             [   
                  InlineKeyboardButton("ᴀʙᴏᴜᴛ 😎", callback_data="about"),
