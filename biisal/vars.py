@@ -13,14 +13,14 @@ silent_auto_grp = "https://t.me/+CZH0JaSwih44ZTM1" #Auto Filter Group Link
 
 class Var(object):
     MULTI_CLIENT = False
-    API_ID = int(getenv('API_ID', '25833520'))
-    API_HASH = str(getenv('API_HASH', '7d012a6cbfabc2d0436d7a09d8362af7'))
+    API_ID = int(getenv('API_ID', ''))
+    API_HASH = str(getenv('API_HASH', ''))
     BOT_TOKEN = str(getenv('BOT_TOKEN' , '6636524134:AAEGYg4i3ZBzIkqGWAV4PSDqadHswCjhsWQ'))
     name = str(getenv('name', 'DSFile-To-Link'))
     SLEEP_THRESHOLD = int(getenv('SLEEP_THRESHOLD', '60'))
     WORKERS = int(getenv('WORKERS', '10000'))
     BIN_CHANNEL = int(getenv('BIN_CHANNEL', '-1001925180658'))
-    NEW_USER_LOG = int(getenv('NEW_USER_LOG', '-1002016803498'))
+    NEW_USER_LOG = int(getenv('NEW_USER_LOG', '-1001925180658'))
     PORT = int(getenv('PORT', '8080'))
     BIND_ADRESS = str(getenv('WEB_SERVER_BIND_ADDRESS', '0.0.0.0'))
     PING_INTERVAL = int(environ.get("PING_INTERVAL", "1200"))  # 20 minutes
