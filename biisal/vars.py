@@ -6,10 +6,10 @@ from dotenv import load_dotenv
 
 
 load_dotenv()
-DS_bot_name = "" #This Extra Function Added By 𝚂𝙰𝙽𝙲𝙷𝙸𝚃 ♛⛧
-DS_bot_username = "" #Add Bot Username Without '@'
+DS_bot_name = "Silent Streamer" #This Extra Function Added By 𝚂𝙰𝙽𝙲𝙷𝙸𝚃 ♛⛧
+DS_bot_username = "SilentHelper_bot" #Add Bot Username Without '@'
 silent_channel = "https://telegram.me/THE_SILENT_TEAMS" #Update Channel Link
-silent_auto_grp = "https://t.me/+PA8OPL2Zglk3MDM1" #Auto Filter Group Link
+silent_auto_grp = "https://t.me/+CZH0JaSwih44ZTM1" #Auto Filter Group Link
 
 class Var(object):
     MULTI_CLIENT = False
