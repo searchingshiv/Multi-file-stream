@@ -78,7 +78,6 @@ async def start(b, m):
                  InlineKeyboardButton("ʜᴇʟᴘ 😅", callback_data="help")
             ],
             [InlineKeyboardButton("Lᴀᴛᴇꜱᴛ Mᴏᴠɪᴇꜱ 😆", url="https://t.me/+9bpv69G2aPMyNjFl"]
-        ]
     )
 )
 @StreamBot.on_message(filters.command("help") & filters.private )
@@ -168,7 +167,6 @@ async def cb_handler(client, query):
                  InlineKeyboardButton("ʜᴇʟᴘ 😅", callback_data="help")
             ],
             [InlineKeyboardButton("Lᴀᴛᴇꜱᴛ Mᴏᴠɪᴇꜱ 😆", url="https://t.me/+9bpv69G2aPMyNjFl"]
-        ]
             )
         )
 
