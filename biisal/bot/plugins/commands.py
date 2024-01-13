@@ -51,7 +51,7 @@ async def start(b, m):
                             InlineKeyboardButton("Jᴏɪɴ ɴᴏᴡ 🚩", url=f"https://t.me/{Var.UPDATES_CHANNEL}")
                         ]
                     ]
-                ),
+                )
                 
             )
              return
