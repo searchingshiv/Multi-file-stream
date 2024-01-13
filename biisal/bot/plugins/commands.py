@@ -70,15 +70,14 @@ async def start(b, m):
         [
             [InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ 🤡", url=silent_channel)],
             [
+                 InlineKeyboardButton("Support Group", url="https://t.me/+ZSUTmOXuwqxlODk1"),
+                 InlineKeyboardButton("Auto Group", url="silent_auto_grp")
+            ],
+            [
                  InlineKeyboardButton("ᴀʙᴏᴜᴛ 😎", callback_data="about"),
                  InlineKeyboardButton("ʜᴇʟᴘ 😅", callback_data="help")
             ],
-            [InlineKeyboardButton("ᴏᴜʀ ɢʀᴏᴜᴘ 🚩", url=silent_auto_grp)],
-
-            [
-                 InlineKeyboardButton("ᴅɪsᴄʟᴀɪᴍᴇʀ 🔻", url=f"https://www.google.com"),
-                 InlineKeyboardButton("ᴅᴇᴠ 😊", callback_data="aboutDev")
-            ]
+            [InlineKeyboardButton("Lᴀᴛᴇꜱᴛ Mᴏᴠɪᴇꜱ 😆", url="https://t.me/+9bpv69G2aPMyNjFl"]
         ]
     )
 )
@@ -132,8 +131,8 @@ async def help_cd(b, m):
                 InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ 🤡", url=silent_channel)
             ],
             [
-                InlineKeyboardButton("ᴅɪsᴄʟᴀɪᴍᴇʀ 🔻", url=f"https://www.google.com"),
-                InlineKeyboardButton("ᴏᴜʀ ɢʀᴏᴜᴘ 🚩", url=silent_auto_grp),
+                InlineKeyboardButton("Support Group", url="https://t.me/+ZSUTmOXuwqxlODk1"),
+                 InlineKeyboardButton("Auto Group", url="silent_auto_grp")
 
             ],
             [
@@ -161,15 +160,14 @@ async def cb_handler(client, query):
                 [
             [InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ 🤡", url=silent_channel)],
             [
+                 InlineKeyboardButton("Support Group", url="https://t.me/+ZSUTmOXuwqxlODk1"),
+                 InlineKeyboardButton("Auto Group", url="silent_auto_grp")
+            ],
+            [
                  InlineKeyboardButton("ᴀʙᴏᴜᴛ 😎", callback_data="about"),
                  InlineKeyboardButton("ʜᴇʟᴘ 😅", callback_data="help")
             ],
-            [InlineKeyboardButton("ᴏᴜʀ ɢʀᴏᴜᴘ 🚩", url=silent_auto_grp)],
-
-            [
-                 InlineKeyboardButton("ᴅɪsᴄʟᴀɪᴍᴇʀ 🔻", url=f"https://telegra.ph/Disclaimer-11-07-37"),
-                 InlineKeyboardButton("ᴅᴇᴠ 😊", callback_data="aboutDev")
-            ]
+            [InlineKeyboardButton("Lᴀᴛᴇꜱᴛ Mᴏᴠɪᴇꜱ 😆", url="https://t.me/+9bpv69G2aPMyNjFl"]
         ]
             )
         )
