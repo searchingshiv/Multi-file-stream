@@ -20,7 +20,7 @@ SRT_TXT = """<b>ᴊᴀɪ sʜʀᴇᴇ Rᴀᴍ {}!,
 I ᴀᴍ Fɪʟᴇ ᴛᴏ Lɪɴᴋ Gᴇɴᴇʀᴀᴛᴏʀ Bᴏᴛ ᴡɪᴛʜ Cʜᴀɴɴᴇʟ sᴜᴘᴘᴏʀᴛ.
 
 Sᴇɴᴅ ᴍᴇ ᴀɴʏ ғɪʟᴇ ᴀɴᴅ ɢᴇᴛ ᴀ ᴅɪʀᴇᴄᴛ ᴅᴏᴡɴʟᴏᴀᴅ ʟɪɴᴋ ᴀɴᴅ sᴛʀᴇᴀᴍᴀʙʟᴇ ʟɪɴᴋ.!
-ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : <a href='https://t.me/THE_SILENT_TEAMS'>THE SiLENT TEAM</a></b>"""
+ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : <a href='https://t.me/THE_SILENT_TEAMS'>Tʜᴇ Sɪʟᴇɴᴛ Tᴇᴀᴍ</a></b>"""
 
 @StreamBot.on_message(filters.command("start") & filters.private )
 async def start(b, m):
@@ -69,11 +69,11 @@ async def start(b, m):
     reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Updates Channel", url=silent_channel)
+                        InlineKeyboardButton("Uᴘᴅᴀᴛᴇꜱ Cʜᴀɴɴᴇʟ", url=silent_channel)
                     ],
                     [
                         InlineKeyboardButton("Lᴀᴛᴇꜱᴛ Mᴏᴠɪᴇꜱ 😆", url="https://t.me/+9bpv69G2aPMyNjFl"),
-                        InlineKeyboardButton("Auto Group", url=silent_auto_grp),
+                        InlineKeyboardButton("Aᴜᴛᴏ Gʀᴏᴜᴘ", url=silent_auto_grp),
                         
                     ],
                     [
@@ -133,11 +133,11 @@ async def help_cd(b, m):
     reply_markup=InlineKeyboardMarkup(
         [
             [   
-                InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ 🤡", url=silent_channel)
+                InlineKeyboardButton("Updates Channel 🤡", url=silent_channel)
             ],
             [
-                InlineKeyboardButton("Support Group", url="https://t.me/+ZSUTmOXuwqxlODk1"),
-                 InlineKeyboardButton("Auto Group", url="silent_auto_grp")
+                InlineKeyboardButton("Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ", url="https://t.me/+ZSUTmOXuwqxlODk1"),
+                 InlineKeyboardButton("Aᴜᴛᴏ Gʀᴏᴜᴘ", url="silent_auto_grp")
 
             ],
             [
@@ -164,11 +164,11 @@ async def cb_handler(client, query):
         reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Updates Channel", url=silent_channel)
+                        InlineKeyboardButton("Uᴘᴅᴀᴛᴇꜱ Cʜᴀɴɴᴇʟ", url=silent_channel)
                     ],
                     [
                         InlineKeyboardButton("Lᴀᴛᴇꜱᴛ Mᴏᴠɪᴇꜱ 😆", url="https://t.me/+9bpv69G2aPMyNjFl"),
-                        InlineKeyboardButton("Auto Group", url=silent_auto_grp),
+                        InlineKeyboardButton("Aᴜᴛᴏ Gʀᴏᴜᴘ", url=silent_auto_grp),
                         
                     ],
                     [
