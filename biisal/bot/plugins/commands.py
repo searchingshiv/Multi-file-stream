@@ -67,19 +67,25 @@ async def start(b, m):
     photo="https://telegra.ph/file/2ab88e1d0a62e75e4b2ff.jpg",
     caption= SRT_TXT.format(m.from_user.mention(style="md")),
     reply_markup=InlineKeyboardMarkup(
-        [
-            [InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ 🤡", url=silent_channel)],
-            [
-                 InlineKeyboardButton("Support Group", url="https://t.me/+ZSUTmOXuwqxlODk1"),
-                 InlineKeyboardButton("Auto Group", url="silent_auto_grp")
-            ],
-            [
-                 InlineKeyboardButton("ᴀʙᴏᴜᴛ 😎", callback_data="about"),
-                 InlineKeyboardButton("ʜᴇʟᴘ 😅", callback_data="help")
-            ],
-            [InlineKeyboardButton("Lᴀᴛᴇꜱᴛ Mᴏᴠɪᴇꜱ 😆", url="https://t.me/+9bpv69G2aPMyNjFl"]
-    )
-)
+                [
+                    [
+                        InlineKeyboardButton("Updates Channel", url=silent_channel)
+                    ],
+                    [
+                        InlineKeyboardButton("Lᴀᴛᴇꜱᴛ Mᴏᴠɪᴇꜱ 😆", url="https://t.me/+9bpv69G2aPMyNjFl"),
+                        InlineKeyboardButton("Auto Group", url=silent_auto_grp),
+                        
+                    ],
+                    [
+                        InlineKeyboardButton("ᴀʙᴏᴜᴛ 😎", callback_data="about"),
+                        InlineKeyboardButton("ʜᴇʟᴘ 😅", callback_data="help")
+                    ],
+                    [
+                        InlineKeyboardButton("Lᴀᴛᴇꜱᴛ Mᴏᴠɪᴇꜱ 😆", url="https://t.me/+9bpv69G2aPMyNjFl")
+                    ]
+                ]
+            )
+        )
 @StreamBot.on_message(filters.command("help") & filters.private )
 async def help_cd(b, m):
     if not await db.is_user_exist(m.from_user.id):
@@ -157,20 +163,24 @@ async def cb_handler(client, query):
         caption= SRT_TXT.format(query.from_user.mention(style="md")),
         reply_markup=InlineKeyboardMarkup(
                 [
-            [InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ 🤡", url=silent_channel)],
-            [
-                 InlineKeyboardButton("Support Group", url="https://t.me/+ZSUTmOXuwqxlODk1"),
-                 InlineKeyboardButton("Auto Group", url="silent_auto_grp")
-            ],
-            [
-                 InlineKeyboardButton("ᴀʙᴏᴜᴛ 😎", callback_data="about"),
-                 InlineKeyboardButton("ʜᴇʟᴘ 😅", callback_data="help")
-            ],
-            [InlineKeyboardButton("Lᴀᴛᴇꜱᴛ Mᴏᴠɪᴇꜱ 😆", url="https://t.me/+9bpv69G2aPMyNjFl"]
+                    [
+                        InlineKeyboardButton("Updates Channel", url=silent_channel)
+                    ],
+                    [
+                        InlineKeyboardButton("Lᴀᴛᴇꜱᴛ Mᴏᴠɪᴇꜱ 😆", url="https://t.me/+9bpv69G2aPMyNjFl"),
+                        InlineKeyboardButton("Auto Group", url=silent_auto_grp),
+                        
+                    ],
+                    [
+                        InlineKeyboardButton("ᴀʙᴏᴜᴛ 😎", callback_data="about"),
+                        InlineKeyboardButton("ʜᴇʟᴘ 😅", callback_data="help")
+                    ],
+                    [
+                        InlineKeyboardButton("Lᴀᴛᴇꜱᴛ Mᴏᴠɪᴇꜱ 😆", url="https://t.me/+9bpv69G2aPMyNjFl")
+                    ]
+                ]
             )
         )
-
-    
     elif data == "about":
         await query.message.edit_caption(
             caption=f"<b>Mʏ ɴᴀᴍᴇ :<a href='https://t.me/SilentHelper_bot'>{DS_bot_name}</a>\nOᴡɴᴇʀ : <a href='https://t.me/THE_SILENT_TEAMS'>Tʜᴇ Sɪʟᴇɴᴛ Tᴇᴀᴍ</a>\nʜᴏsᴛᴇᴅ ᴏɴ : ʜᴇʀᴏᴋᴜ\nᴅᴀᴛᴀʙᴀsᴇ : ᴍᴏɴɢᴏ ᴅʙ\nʟᴀɴɢᴜᴀɢᴇ : ᴘʏᴛʜᴏɴ 3</b>",
