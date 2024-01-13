@@ -73,7 +73,7 @@ async def start(b, m):
                         InlineKeyboardButton("Uᴘᴅᴀᴛᴇꜱ Cʜᴀɴɴᴇʟ", url=silent_channel)
                     ],
                     [
-                        InlineKeyboardButton("Lᴀᴛᴇꜱᴛ Mᴏᴠɪᴇꜱ 😆", url="https://t.me/+9bpv69G2aPMyNjFl"),
+                        InlineKeyboardButton("Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ", url="https://t.me/+ZSUTmOXuwqxlODk1"),
                         InlineKeyboardButton("Aᴜᴛᴏ Gʀᴏᴜᴘ", url=silent_auto_grp),
                         
                     ],
@@ -168,7 +168,7 @@ async def cb_handler(client, query):
                         InlineKeyboardButton("Uᴘᴅᴀᴛᴇꜱ Cʜᴀɴɴᴇʟ", url=silent_channel)
                     ],
                     [
-                        InlineKeyboardButton("Lᴀᴛᴇꜱᴛ Mᴏᴠɪᴇꜱ 😆", url="https://t.me/+9bpv69G2aPMyNjFl"),
+                        InlineKeyboardButton("Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ", url="https://t.me/+ZSUTmOXuwqxlODk1"),
                         InlineKeyboardButton("Aᴜᴛᴏ Gʀᴏᴜᴘ", url=silent_auto_grp),
                         
                     ],
