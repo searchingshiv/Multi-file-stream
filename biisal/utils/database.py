@@ -42,3 +42,23 @@ class Database:
 
     async def delete_user(self, user_id):
         await self.col.delete_many({'id': int(user_id)})
+    def black_user(self, id):
+        return dict(
+            id=id,
+            ban_date=time.time()
+        )
+
+    async def ban_user(self, id):
+        user = self.black_user(id)
+        await self.black.insert_one(user)
+
+    async def unban_user(self, id):
+        await self.black.delete_one({'id': int(id)})
+
+    async def is_user_banned(self, id):
+        user = await self.black.find_one({'id': int(id)})
+        return True if user else False
+
+    async def total_banned_users_count(self):
+        count = await self.black.count_documents({})
+        return count
